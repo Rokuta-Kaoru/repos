@@ -58,7 +58,7 @@ blockquote, q {
   
   /* ヒーロースタイル */
   .full-hero {
-    background-color: #c7dbfc;
+    background-color: red;
     height: 50vh;
   }
   
