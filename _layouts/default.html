@@ -4,17 +4,13 @@ another_key: another_value
 ---
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Test Page: Don't panic</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/test.css">
-      </head>    
+  {% include head.html %}
   <body>
+    {% include header.html %}
+    <div class="full-hero hero-home">
+      <h1>I'm an h1</h1>
+      <ul class="social-list">
 
-<div class="full-hero hero-home">
-<h1>I'm an h1</h1>
-<ul class="social-list">
 <li>
 <a href="https://example.com/" class="social-link">Fb</a>
 </li>
